@@ -1,0 +1,12 @@
+[Unit]
+Description=Gradio Image Mixer Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/workspace/mixtPhotobooth/scripts
+ExecStart=/workspace/mixtPhotobooth/.venv/bin/uvicorn gradio_image_mixer:app --host 0.0.0.0 --port 4000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
