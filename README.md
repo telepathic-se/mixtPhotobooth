@@ -1,6 +1,7 @@
 
 
 ## PhotoBooth
+use docker: runpod/stable-diffusion:web-automatic-4.0.0
 
 To Run
 
