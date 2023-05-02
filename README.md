@@ -12,7 +12,7 @@ cd mixtPhotobooth
 python -m venv .venv --prompt sd
 . .venv/bin/activate
 pip install -U pip
-pip install -e .
+#pip install -e . dont run!
 pip install -r requirements.txt
 
 cd scripts
